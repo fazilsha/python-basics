@@ -20,5 +20,6 @@ for j in l2:
           for i in l1:
              if i==j:
                l1.remove(j)
-        l1.remove(j)
+        else:
+          l1.remove(j)
 print(l1)
